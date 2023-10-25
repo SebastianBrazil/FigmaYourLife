@@ -1,0 +1,87 @@
+@font-face {
+    font-family: UncialAntiqua;
+    src: url(../assets/UncialAntiqua-Regular.ttf);
+}
+
+@font-face {
+    font-family: CormorantInfant;
+    src: url(../assets/CormorantInfant-Regular.ttf);
+}
+
+body {
+    background-color: #F9CD76;
+    color: #282D4F;
+}
+
+h1 {
+    font-family: UncialAntiqua;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 550%;
+}
+
+/*  */
+
+.imgFirst {
+    display: flex;
+    margin-left: 35%;
+    width: 50%;
+}
+
+.imgSecond {
+    display: flex;
+    width: 85%;
+}
+
+.imgThird {
+    display: flex;
+    width: 400px;
+    height: 200px;
+}
+
+.imgSortThird div {
+    display: flex;
+    justify-content: center;
+}
+
+/*  */
+
+.pFirstText {
+    font-family: CormorantInfant;
+    font-size: 275%;
+    display: flex;
+    margin-left: -5%;
+}
+
+.pSecondText {
+    font-family: CormorantInfant;
+    font-size: 275%;
+    display: flex;
+    padding-left: 5%;
+}
+
+.pSecondSubText {
+    font-size: 78%;
+}
+
+.pThirdText {
+    font-family: CormorantInfant;
+    font-size: 226%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+/*  */
+
+.bgTeal {
+    background-color: #36EFB7;
+    padding-top: 1%;
+    font-size: 150%;
+    font-style: italic;
+    font-weight: 250;
+}
+
+.navBarUniform {
+    width: 50%;
+    list-style: none;
+}
